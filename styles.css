@@ -5,8 +5,6 @@
 }
 
 body{
-    /* background-image: linear-gradient(50deg, #9e768f, #9fa4c4); */
-    background-color: #393E46;
     background-color: #212121;
     color: white;
     font-family: Cursive, 'Poppins', sans-serif;
@@ -37,7 +35,7 @@ input::placeholder{
 }
 
 form button{
-    color: #9e768f;
+    color: #d88771;
     background: white;
     cursor: pointer;
     transition: all 0.5s ease-in;
@@ -45,7 +43,6 @@ form button{
 
 form button:hover{
     background: #d88771;
-    background: #9e768f;
     color: white;
 }
 
@@ -78,7 +75,7 @@ form button:hover{
 
 .trash-btn,
 .complete-btn{
-    background: #9e768f;
+    background: #d88771;
     color: white;
     border: none;
     padding: 1rem;
@@ -124,7 +121,7 @@ select{
 }
 
 select{
-    color: #9e768f;
+    color: #d88771;
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
@@ -134,7 +131,7 @@ select{
 .select::after{
     content: "\25BC";
     position: absolute;
-    background: #9e768f;
+    background: #d88771;
     top: 0;
     right: 0;
     padding: 1rem;
@@ -145,5 +142,5 @@ select{
 .select:hover::after{
     border-radius: 10px;
     background: white;
-    color: #9e768f;
+    color: #d88771;
 }
